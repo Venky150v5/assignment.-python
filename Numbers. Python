@@ -1,0 +1,8 @@
+#the program to print the numbers upto n
+n = int(input("Please Enter any Number: "))
+ 
+print("The List of Natural Numbers from 1", "to", n, " are") 
+ 
+for i in range(1, n + 1):
+
+    print (i)

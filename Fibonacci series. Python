@@ -1,0 +1,15 @@
+
+#To print fibonacci series
+first_number=0
+second_number=1
+
+n=int(input("enter the number of series"))
+print('Fibonacc series is : ')
+
+for i in range (0,n):
+    print(first_number,end=" ")
+
+    third_number=first_number+second_number
+
+    first_number=second_number
+    second_number=third_number

@@ -11,7 +11,7 @@ def isPalindrome(string):
      
     return "The string is a palindrome." 
  
-#Enter input string 
+
 str1 = input("Enter string : ") 
  
 print(isPalindrome(str1))
